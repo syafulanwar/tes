@@ -3,7 +3,7 @@ jobs:
   build-medium:
     machine:
       image: ubuntu-2004:current
-    resource_class: arm.2xlarge
+    resource_class: arm.large
     steps:
       - run: uname -a
       - run: lscpu
