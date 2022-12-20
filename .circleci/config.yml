@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build-medium:
     machine:
-      image: ubuntu-2004:202101-01
+      image: ubuntu-2004:current
     resource_class: arm.2xlarge
     steps:
       - run: uname -a
