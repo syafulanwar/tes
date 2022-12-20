@@ -6,7 +6,7 @@ jobs:
     resource_class: arm.medium
     steps:
       - run: uname -a
-      - run: echo "Hello, Arm!"
+      - run: lscpu
 
 workflows:
   build:
